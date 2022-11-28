@@ -3,14 +3,14 @@
 // in the html.
 
 
-var date = new Date()
-var time = date.getHours();
+// var date = new Date()
+// var time = date.getHours();
     // TODO: Add code to display the current date in the header of the page.
     //today date 
 document.getElementById('currentDay').innerHTML = dayjs().format('dddd, MMMM D YYYY')
 console.log(time)
 var x = calTime()
-let now = dayjs();
+var now = dayjs();
 console.log(now.format('dddd, MMMM D YYYY'));
 
 
@@ -29,7 +29,7 @@ $('.description').each( function (){
 
 //set function to loop over the time blocks on calender so they change color to past, present, future colors
 function calTime() {
-  var currentTime = time;
+  var currentTime = now;
   console.log(currentTime)
 
   // loop over time blocks
