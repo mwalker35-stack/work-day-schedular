@@ -3,8 +3,8 @@
 // in the html.
 
 
-// var date = new Date()
-// var time = date.getHours();
+var date = new Date()
+var time = date.getHours();
     // TODO: Add code to display the current date in the header of the page.
     //today date 
 document.getElementById('currentDay').innerHTML = dayjs().format('dddd, MMMM D YYYY')
