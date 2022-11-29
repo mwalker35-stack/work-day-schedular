@@ -29,7 +29,7 @@ $('.description').each( function (){
 
 //set function to loop over the time blocks on calender so they change color to past, present, future colors
 function calTime() {
-  var currentTime = now;
+  var currentTime = time;
   console.log(currentTime)
 
   // loop over time blocks
