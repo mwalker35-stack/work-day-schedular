@@ -22,3 +22,8 @@ Please refer to the LICENSE in the repo.
 
 
 ## Links and image for site
+https://mwalker35-stack.github.io/work-day-schedular/
+
+https://github.com/mwalker35-stack/work-day-schedular
+
+![alt text](./Assests/Screenshot%20workscheduler.png)
